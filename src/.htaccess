@@ -4,5 +4,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 
 
-RewriteRule ^(.*)$ /web_consulta/src/index.php?pag=$1 
+RewriteRule ^(.*)$ index.php?pag=$1 
 

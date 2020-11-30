@@ -1,0 +1,28 @@
+/*CSS com alterações customizadas*/ 
+@font-face {
+    font-family: 'Signika';
+    src: url('../../fonts/signika/Signika/Signika-Regular.ttf');
+}
+
+body {
+    background-color: #EFEFEF; 
+    font-family: 'Signika';
+}
+section {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #FFFFFF;
+    color: #0094cf; 
+    margin-left: 70%;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #FFFFFF;
+    color: #0284b8;
+    
+}
+.navbar {
+    
+}
